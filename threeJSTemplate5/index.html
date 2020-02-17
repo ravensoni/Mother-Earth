@@ -1,0 +1,68 @@
+<!--
+   "texture mapping" : Put very simply, this means taking a square image and stretching it over the surface of a 3D object.
+   UV Mapping :
+
+
+   Running on-demand:
+   Using npx you can run the script without installing it first:
+
+   npx http-server [path] [options]
+
+   // /
+   White 'Ambient' light with Intensity of 2 will look exactly like an object with a MeshBasicMaterial without any lights
+ -->
+<!DOCTYPE html>
+<html>
+
+   <head>
+
+      <title>threeJSTemplate5   EARTH</title>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="UTF-8" />
+
+      <style media="screen">
+      </style>
+
+      <link rel="icon" href="https://discoverthreejs.com/favicon.ico" type="image/x-icon">
+
+      <link href="styles/main.css" rel="stylesheet" type="text/css">
+      <!--
+
+      Include the main three.js script.
+
+      The global variable THREE will be
+      available for use in any scripts
+      loaded after this one.
+
+      -->
+
+      <script src="js/vendor/three/three.js"></script>
+
+   </head>
+
+   <body>
+
+      <h1><a href="http://ray3dc.blogspot.com/" target="_blank">ray3dc</a></h1>
+
+      <div class="sc" id="scene-container">
+         <!-- This div will hold our scene-->
+      </div>
+
+      <footer>
+
+      <!--
+        Finally, include the script that
+        runs your three.js app.
+      -->
+
+      <script type="text/javascript">
+      </script>
+      <script src="js/vendor/three/OrbitControls.js"></script>
+      <script src="js/app.js"></script>
+
+
+      </footer>
+
+   </body>
+</html>
